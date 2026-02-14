@@ -1,0 +1,21 @@
+HC-05 Bluetooth → Arduino Uno
+--------------------------------
+     VCC      →      5V
+     GND      →      GND
+     TX       →      RX (Pin 0)
+     RX       →      TX (Pin 1)
+    (State)   →     (সংযোগ না দিলেও চলে)
+    (EN/Key)  →     (অপশনাল)
+Relay Module → Arduino Uno
+--------------------------------
+    VCC       →      5V
+    GND       →      GND
+    IN1       →      Pin 8
+    IN2       →      Pin 9
+    IN3       →      Pin 10
+    IN4       →      Pin 11
+Relay Module → AC Load (220V/110V)
+----------------------------------------
+    COM (Common)      →     Live/Phase Wire (AC Source)
+    NO (Normally Open)→     Load এর এক টার্মিনাল
+    Load এর অন্য টার্মিনাল → Neutral Wire (AC Source)
